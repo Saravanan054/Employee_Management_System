@@ -5,10 +5,16 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
+import java.util.Date;
+
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class DepartmentDto {
-    private String name;
+public class ProjectDto {
+    private String Name;
+    private String Description;
+    private Date startDate;
+    private Date endDate;
+
 }
