@@ -28,6 +28,7 @@ It provides RESTful APIs to manage employees, departments, projects, and other o
 ---
 
 ## Project Structure
+```
 src/main/java/com/ems
 │
 ├── Controller
@@ -36,3 +37,4 @@ src/main/java/com/ems
 ├── Entity
 ├── Dto
 └── EmployeeManagementSystemApplication.java
+```
